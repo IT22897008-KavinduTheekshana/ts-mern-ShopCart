@@ -1,7 +1,6 @@
 
 import { Col, Row } from 'react-bootstrap'
 import { sampleProducts } from '../data'
-import { Link } from 'react-router-dom'
 import { Product } from '../types/Product'
 import { useEffect, useReducer } from 'react'
 import axios from 'axios'
@@ -10,6 +9,7 @@ import { ApiError } from '../types/ApiError'
 import LoadingBox from '../components/LoadingBox'
 import MeessageBox from '../components/MeessageBox'
 import ProductItem from '../components/ProductItem'
+import { Helmet } from 'react-helmet-async'
 
 type State = {
   products: Product[],
@@ -66,7 +66,10 @@ return loading ? (
   <MeessageBox variant="danger">{error}</MeessageBox>
 ) : (
     <Row>
-          {sampleProducts.map((product) => (
+      <Helmet>
+        <title>ShopCart</title>
+      </Helmet>
+          {products.map((product) => (
               <Col key={product.slug} sm={6} md={4} lg={3}>
                 <ProductItem product={product}  />
             </Col>
