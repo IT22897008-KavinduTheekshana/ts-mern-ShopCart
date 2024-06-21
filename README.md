@@ -40,3 +40,22 @@
    2. set axios base url
    3. use effect hook
    4. use reducer hook
+10. Create Rating ProductItem Component
+   1. Rating.js
+   2. ProductItem.js
+11. Set Page Title
+   1. npm i react-helmet-async
+12. Load Products By React Query
+   1. npm i @tanstack/react-query @tanstack/react-query-devtools
+   3. apiClient.ts
+   4. hooks/productHook.ts
+13. Create Product Page
+14. Create React Context
+   1. Store.ts
+15. Connect To MongoDB
+   1. create mongodb database
+   2. npm install dotenv mongoose @typegoose/typegoose
+   3. put mongodb uri in .env
+   4. MONGODB_URI=mongodb://localhost/tsmernamazona
+   5. npm i express-async-handler
+   6. run <http://localhost:4000/api/products>
