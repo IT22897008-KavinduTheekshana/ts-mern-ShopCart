@@ -59,3 +59,5 @@
    4. MONGODB_URI=mongodb://localhost/tsmernamazona
    5. npm i express-async-handler
    6. run <http://localhost:4000/api/products>
+16. Cart In Product Page
+   1. npm i react-router-bootstrap
