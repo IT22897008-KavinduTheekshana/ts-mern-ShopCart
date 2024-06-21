@@ -60,3 +60,4 @@
 16. Cart In Product Page
    1. npm i react-router-bootstrap
 17. Create Cart Page
+18. Implement Remove From Cart
