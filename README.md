@@ -1,7 +1,5 @@
 # TypeScript MERN ShopCart
 
-## Lessons
-
 1. Introduction
 2. Install Tools
 3. Create TypeScript React App By Vite
@@ -61,3 +59,4 @@
    6. run <http://localhost:4000/api/products>
 16. Cart In Product Page
    1. npm i react-router-bootstrap
+17. Create Cart Page
