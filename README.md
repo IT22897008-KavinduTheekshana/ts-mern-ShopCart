@@ -61,3 +61,8 @@
    1. npm i react-router-bootstrap
 17. Create Cart Page
 18. Implement Remove From Cart
+19. Create User Signin Api
+   1. npm i bcryptjs
+   2. open <http://localhost:4000/api/seed>
+   3. npm i jsonwebtoken
+   4. add JWT_SECRET to .env file
