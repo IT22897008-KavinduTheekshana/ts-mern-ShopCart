@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async'
 import { useNavigate, useParams } from 'react-router-dom'
-import { useGetProductDetailsBySlugQuery } from '../productHooks'
+import { useGetProductDetailsBySlugQuery } from '../hooks/productHooks.ts'
 import LoadingBox from '../components/LoadingBox'
 import MeessageBox from '../components/MeessageBox'
 import { convertProductToCartItem, getError } from '../utils'

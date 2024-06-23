@@ -5,7 +5,7 @@ import { ApiError } from '../types/ApiError';
 import LoadingBox from '../components/LoadingBox';
 import ProductItem from '../components/ProductItem';
 import MeessageBox from '../components/MeessageBox';
-import { useGetProductsQuery } from '../productHooks';
+import { useGetProductsQuery } from '../hooks/productHooks';
 
 
 
