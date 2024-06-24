@@ -68,3 +68,4 @@
    4. add JWT_SECRET to .env file
 20. create user signin page
 21. create Register User page
+22. Create Shipping Page
