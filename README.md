@@ -66,3 +66,5 @@
    2. open <http://localhost:4000/api/seed>
    3. npm i jsonwebtoken
    4. add JWT_SECRET to .env file
+20. create user signin page
+21. create Register User page
