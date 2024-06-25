@@ -45,8 +45,8 @@
    1. npm i react-helmet-async
 12. Load Products By React Query
    1. npm i @tanstack/react-query @tanstack/react-query-devtools
-   3. apiClient.ts
-   4. hooks/productHook.ts
+   2. apiClient.ts
+   3. hooks/productHook.ts  
 13. Create Product Page
 14. Create React Context
    1. Store.ts
@@ -70,3 +70,4 @@
 21. create Register User page
 22. Create Shipping Page
 23. Create Payment Page
+24. Build Order Api
