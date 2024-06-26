@@ -4,7 +4,7 @@ import { getError } from '../utils';
 import { ApiError } from '../types/ApiError';
 import LoadingBox from '../components/LoadingBox';
 import ProductItem from '../components/ProductItem';
-import MeessageBox from '../components/MeessageBox';
+import MeessageBox from '../components/MessageBox';
 import { useGetProductsQuery } from '../hooks/productHooks';
 
 

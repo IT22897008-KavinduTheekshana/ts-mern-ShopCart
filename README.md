@@ -39,35 +39,18 @@
    3. use effect hook
    4. use reducer hook
 10. Create Rating ProductItem Component
-   1. Rating.js
-   2. ProductItem.js
 11. Set Page Title
-   1. npm i react-helmet-async
-12. Load Products By React Query
-   1. npm i @tanstack/react-query @tanstack/react-query-devtools
-   2. apiClient.ts
-   3. hooks/productHook.ts  
+12. Load Products By React Query 
 13. Create Product Page
 14. Create React Context
-   1. Store.ts
 15. Connect To MongoDB
-   1. create mongodb database
-   2. npm install dotenv mongoose @typegoose/typegoose
-   3. put mongodb uri in .env
-   4. MONGODB_URI=mongodb://localhost/tsmernamazona
-   5. npm i express-async-handler
-   6. run <http://localhost:4000/api/products>
 16. Cart In Product Page
-   1. npm i react-router-bootstrap
 17. Create Cart Page
 18. Implement Remove From Cart
 19. Create User Signin Api
-   1. npm i bcryptjs
-   2. open <http://localhost:4000/api/seed>
-   3. npm i jsonwebtoken
-   4. add JWT_SECRET to .env file
 20. create user signin page
 21. create Register User page
 22. Create Shipping Page
 23. Create Payment Page
 24. Build Order Api
+25. Create Order Page

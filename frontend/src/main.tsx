@@ -23,6 +23,7 @@ import ShippingAddressPage from './pages/ShippingAddressPage.tsx'
 import PaymentMethodPage from './pages/PaymentMethodPage.tsx'
 import ProtectedRoute from './components/ProtectedRoute.tsx'
 import PlaceOrderPage from './pages/PlaceOrderPage.tsx'
+import OrderPage from './pages/OrderPage.tsx'
 
 
 
@@ -40,6 +41,7 @@ const router = createBrowserRouter(
         <Route path='payment' element={<PaymentMethodPage/>}/>
         <Route path='placeorder' element={<PlaceOrderPage/>}/>
       </Route>
+      <Route path="/order/:id" element={<OrderPage />} />
       <Route path='shipping' element={<ShippingAddressPage/>}/>
       <Route path='payment' element={<PaymentMethodPage/>}/>
       {/* <Route path="dashboard" element={<Dashboard />} /> */}

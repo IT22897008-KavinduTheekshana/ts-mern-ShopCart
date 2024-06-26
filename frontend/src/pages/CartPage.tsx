@@ -5,7 +5,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
 import { Store } from '../Store'
 import { CartItem } from '../types/Cart'
-import MeessageBox from '../components/MeessageBox'
+import MeessageBox from '../components/MessageBox'
 
 export default function CartPage() {
   const navigate = useNavigate()
